@@ -2,7 +2,7 @@
 #include "dht22.h"
 #include "delay.h"
 
-void DHT22_ReadByte(void)
+int DHT22_ReadByte(void)
 {
 	u8 data=0, i;
         disableInterrupts();//Ê¹ÄÜÖÐ¶Ï
